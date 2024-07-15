@@ -10,7 +10,7 @@ import {
 } from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyBNBgztjutrsZb36VAwY1hfzAzOzD3B3Uk",
+  apiKey: process.env.API_KEY,
   authDomain: "vanlife-835ca.firebaseapp.com",
   projectId: "vanlife-835ca",
   storageBucket: "vanlife-835ca.appspot.com",
